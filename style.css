@@ -1,0 +1,249 @@
+body {
+  background-color: #f5f5ef;
+  font-family: "Poppins";
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0%;
+  padding: 0%;
+}
+
+img {
+  height: 8vh;
+  width: 17vw;
+  margin: 3rem;
+}
+
+.paragraph {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+  font-size: 5rem;
+  width: 65vw;
+}
+.email {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.text {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 400;
+  height: 7vh;
+  width: 26vw;
+  border-radius: 15px;
+  padding: 5px 20px;
+  background-color: #34ce8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.foot {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  font-family: "Poppins";
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+/*Tablet potrait*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  img {
+    height: 6vh;
+    width: 48vw;
+  }
+  p {
+    width: 91vw;
+    font-size: 3.1rem;
+    font-weight: 600;
+    margin-top: 3rem;
+  }
+
+  .text{
+    font-size: 1.7rem;
+    height: 6vh;
+    width: 44vw;
+    margin-top: 3rem;
+  }
+  .foot {
+    bottom: 10rem;
+  }
+  footer {
+    font-size: 1.3em;
+  }
+}
+/*ipdad11 potrait*/
+@media only screen and (min-width: 820px) and (max-width: 834px) and (orientation: portrait) {
+  .foot {
+    bottom: 19rem;;
+  }
+}
+/*ipad 11 landscape*/
+@media only screen and (max-width: 1194px) and (min-width: 834px) and (orientation: landscape) {
+  img {
+    height: 9vh;
+    width: 31vw;
+  }
+  p {
+    font-size: 4rem;
+    width: 88vw;
+  }
+  .text {
+    width: 34vw;
+  }
+}
+@media screen 
+  and (max-device-width: 1366px)   
+  and (min-device-width: 1366px) 
+  and (orientation: landscape)
+  {
+     img{
+      height: 10vh;
+    width: 24vw;
+     }
+     p{
+      font-size: 3.8rem;
+     }
+  }
+
+
+
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    img {
+      height: 9vh;
+  width: 25vw;
+  }
+
+
+p{
+  width: 66vw;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+}
+.text{
+  margin-top: 0rem;
+  font-size: 1.5rem;
+}
+footer{
+  font-size: 1.3rem;
+}
+}
+
+@media only screen and (max-width: 770px) {
+  img {
+    height: 8vh;
+    width: 39vw;
+  }
+  p{
+    font-size: 3rem;
+    width: 69vw;
+  }
+  .text{
+    width: 35vw;
+    font-size: 1.7rem;
+  }
+  footer{
+    font-size: 1.3rem;
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    height: 7vh;
+    width: 51vw;
+  }
+  p{
+    font-size: 2.5rem;
+  }
+  .text{
+    width: 50vw;
+    font-size: 1.5rem;
+  }
+  footer{
+    font-size: 1.2rem;
+  }
+  
+}
+@media only screen and (max-width: 400px) {
+  img {
+    height: 6vh;
+    width: 57vw;
+}
+ 
+  p{
+    font-size: 1.7rem;
+  }
+  .text{
+    width: 48vw;
+    font-size: 1.3rem;
+  }
+  footer{
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  img {
+    height: 6vh;
+    width: 57vw;
+}
+ 
+  p{
+    font-size: 1.7rem;
+  }
+  .text{
+    width: 48vw;
+    font-size: 1.3rem;
+  }
+  footer{
+    font-size: 1.1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 282px) {
+  img {
+    height: 5vh;
+   
+}
+ 
+  p{
+    font-size: 1.5rem;
+  }
+  .text{
+    width: 48vw;
+    font-size: 1.2rem;
+    height: 6vh;
+}
+  
+  footer{
+    font-size: 1.0rem;
+  }
+}
